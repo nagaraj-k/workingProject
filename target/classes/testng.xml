@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+	<test name="TestProject">
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="url" value="http://google.com"></parameter>
+	<parameter name="url1" value="https://www.facebook.com/"></parameter>
+	<parameter name="q" value="hello"></parameter>
+	<parameter name="email" value="raj"></parameter>
+		<classes>
+			<class name="com.testng.second" />
+			<class name="com.testng.Third" />
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
